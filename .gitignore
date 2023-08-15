@@ -1,0 +1,71 @@
+# Gradle-specific
+.gradle/
+build/
+out/
+.classpath
+.project
+.settings/
+
+# IDE-specific
+.idea/
+.vscode/
+
+# Compiled files
+*.class
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Maven specific
+target/
+
+# Editor-specific
+*.swp
+*.swo
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# IntelliJ IDEA specific
+*.iml
+*.iws
+*.ipr
+*.iws.iml
+.idea_modules/
+.idea/
+
+# Eclipse specific
+.settings/
+*.launch
+*.classpath
+*.project
+
+# Visual Studio specific
+.vs/
+*.sln
+*.suo
+*.user
+*.sln.docstates
+*.pdb
+*.obj
+*.exe
+*.dll
+*.tlb
+*.rsp
+*.scc
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+_ReSharper.*
+*.resharper
+[Tt]humbs.db
+
+# Vim specific
+*.swp
+*.swo
+*.swn
+*.un~
