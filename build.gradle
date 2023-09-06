@@ -1,0 +1,28 @@
+plugins {
+	id 'java'
+	id 'checkstyle'
+}
+
+group 'com.jsudar.json.java'
+version '1.0.0'
+
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
+
+repositories {
+	jcenter()
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'javax.json:javax.json-api:1.1'
+	implementation group: 'javax.json.bind', name: 'javax.json.bind-api', version: '1.0'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+	testImplementation 'javax.json:javax.json-api:1.1'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+checkstyle {
+	toolVersion = '8.39'
+	configFile = file("$rootDir/sun_checks.xml")
+}
