@@ -3,7 +3,7 @@ plugins {
 	id 'checkstyle'
 }
 
-group 'com.jsudar.json.java'
+group 'com.jmsudar.json.java'
 version '1.0.0'
 
 sourceCompatibility = 1.11
