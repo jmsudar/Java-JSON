@@ -1,4 +1,4 @@
-package com.jsudar.java.json;
+package com.jmsudar.java.json;
 
 import javax.json.bind.Jsonb;
 import javax.json.bind.JsonbBuilder;
