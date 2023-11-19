@@ -8,5 +8,5 @@
  *
  * @since 1.0
  */
-package com.jsudar.json;
+package com.jmsudar.json;
 

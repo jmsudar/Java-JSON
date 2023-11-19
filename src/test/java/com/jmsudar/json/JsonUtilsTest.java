@@ -1,4 +1,4 @@
-package com.jsudar.java.json;
+package com.jmsudar.java.json;
 
 import java.util.HashMap;
 import java.util.Map;
